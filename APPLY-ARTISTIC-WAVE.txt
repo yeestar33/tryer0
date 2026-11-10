@@ -1,0 +1,17 @@
+ARTISTIC WAVE UPDATE
+
+Stop your dev server with Ctrl+C.
+Extract this ZIP into C:\Users\yeech\Downloads\tryer.
+Replace src/App.jsx and src/index.css.
+Run npm run dev.
+
+This update requires the three-tab version.
+
+The transition is one continuous illustrated wave silhouette:
+a hooked breaking crest, foam fingers, a sweeping body, and a long tapered
+tail with split ribbons and detached splashes.
+The wave uses flat colors and travels left to right in 2.6 seconds.
+Reduced-motion visitors get an immediate page change.
+
+The production build passed.
+Browser visual verification remains blocked by the saved preview permission.

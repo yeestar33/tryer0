@@ -1,0 +1,17 @@
+SIMPLE TIDAL WAVE UPDATE
+
+Stop the dev server with Ctrl+C.
+Copy this ZIP's src folder into C:\Users\yeech\Downloads\tryer.
+Replace src/App.jsx and src/index.css, then run:
+npm run dev
+
+Requires the existing three-tab website.
+
+The left-to-right wave now takes 2.6 seconds.
+It uses flat blue water and white foam.
+A curved trailing edge and foam line reveal the next page as the wave exits.
+The page swaps at 1.2 seconds while completely covered.
+Reduced-motion visitors get an immediate page change.
+
+Production build passed. Visual browser checks remain unavailable because
+a saved permission setting blocks access to the local preview.

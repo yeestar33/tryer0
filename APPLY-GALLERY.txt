@@ -1,0 +1,44 @@
+APPLY THE GALLERY UPDATE
+
+If you already have the site:
+1. Stop the dev server with Ctrl+C.
+2. Open the replacement-files ZIP.
+3. Copy src, public, index.html, and vite.config.js into your project folder, accepting file replacements.
+4. Run npm run dev.
+
+The full-project ZIP is also included as a separate download.
+To start a fresh copy, extract it, open a terminal in tryer0-main, then run:
+npm install
+npm run dev
+
+ADD PHOTOS
+
+Put your image files inside public/gallery/.
+Open src/data/gallery.js and edit the numbered entries.
+
+For example, replace entry 01 with:
+{ id: "01", src: "/gallery/01.jpg", alt: "Friends together at the beach", caption: "Summer afternoon" },
+
+Keep the commas and quotation marks. Use the exact filename, including capitalization.
+Leave src empty to keep the corresponding numbered placeholder.
+You can add or remove entries, keeping each id unique.
+Photos fill their portrait frames. Click a photo to see the complete image.
+Captions are optional. Alt text describes a photo for visitors using screen readers.
+A missing image falls back to its numbered space.
+
+DARK MODE
+
+The whole page follows the visitor's system light/dark appearance automatically,
+including when their preference changes while the page is open.
+No settings or extra packages are required.
+
+PERSONALIZE
+
+Edit the name and introduction in src/App.jsx.
+Edit the page title and description in index.html.
+Colors and spacing are in src/index.css.
+
+BUILD
+
+npm run build
+The production website is generated in dist/.

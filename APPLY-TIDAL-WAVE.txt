@@ -1,0 +1,17 @@
+TIDAL WAVE TRANSITION UPDATE
+
+1. Stop the dev server with Ctrl+C.
+2. Extract this ZIP.
+3. Copy the src folder into C:\Users\yeech\Downloads\tryer.
+4. Replace src/App.jsx and src/index.css.
+5. In your project terminal, run:
+   npm run dev
+
+This update requires the three-tab version of the website.
+The wave sweeps horizontally from left to right with blue water,
+a curling crest, white foam and dark outlines inspired by the reference.
+The page switches while the water completely covers the screen.
+The transition lasts 1.1 seconds and respects reduced-motion preferences.
+
+The production build passed. Browser visual verification remains
+unavailable because a saved permission setting blocks the local preview.

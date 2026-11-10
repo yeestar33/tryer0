@@ -1,0 +1,56 @@
+APPLY THE THREE-TAB UPDATE
+
+1. Stop the existing dev server with Ctrl+C.
+2. Extract the replacement ZIP somewhere temporary.
+3. Copy its src folder, public folder, index.html, and vite.config.js
+   into C:\Users\yeech\Downloads\tryer, merging folders and replacing files.
+4. Open a terminal in that project folder and run:
+   npm run dev
+5. Open the Local link shown by Vite.
+
+No new dependencies were added. For a fresh copy of the full-project ZIP:
+   npm install
+   npm run dev
+
+There are three separate pages:
+   #portfolio    Portrait, autobiography, interests, highlights, optional links
+   #collection   Your 12 numbered image spaces
+   #angry-birds  50 tiles of the Angry Birds kid death-stare meme
+
+EDIT YOUR PORTFOLIO
+Open src/data/portfolio.js.
+Replace the name, introduction, biography paragraphs, interests and highlights.
+Put a photo in public/portfolio/me.jpg, then set portrait to "/portfolio/me.jpg".
+Set portraitAlt to a short description of the picture.
+Add links using the example in that file.
+The biography text is a template. No personal history was invented.
+
+EDIT THE COLLECTION
+Keep using src/data/gallery.js and public/gallery/.
+The replacement ZIP deliberately excludes gallery.js so that your existing
+photo entries are preserved. The full-project ZIP includes the blank template.
+
+GIF WALL
+src/data/memes.js contains the 50 tiles.
+These are visual remixes of one source clip, using grayscale, mirroring,
+color changes and crops. They are not 50 distinct recorded clips.
+The clip was found under the Angry Birds kid / EthanGamer tag on Tenor.
+Source credit is visible beneath the wall.
+GIF playback needs an internet connection. Failed images show a source link.
+To use other clips, replace src and source values with your own GIFs.
+Put local GIFs in public/memes/ and use "/memes/filename.gif".
+
+ANIMATION AND DARK MODE
+Navigation has a lifting hover effect and a water vortex page transition.
+The website follows the visitor's system light/dark preference automatically.
+Reduced-motion visitors get instant navigation and GIFs start stopped.
+The GIF wall also has a Stop GIFs / Play all GIFs button.
+The vortex is original CSS artwork inspired by a swirling ocean.
+
+VERIFY / BUILD
+npm run build
+
+VERIFICATION
+The production build passes. The working GIF URL returned HTTP 200 image/gif.
+The browser preview was blocked by a saved permission setting, so visual
+browser checks and interactive transition checks remain unverified.
