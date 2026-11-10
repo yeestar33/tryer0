@@ -19,10 +19,10 @@ export function Portfolio() {
           )}
         </div>
         <div className="portfolio-heading">
-          <p className="page-kicker">Portfolio</p>
-          <h1>Hello,<br />I’m <em>{portfolio.name}.</em></h1>
-          <p className="intro-line">{portfolio.introduction}</p>
-          <a className="primary-link" href="#collection">View my collection <span aria-hidden="true">↗</span></a>
+          <p className="page-kicker">The one.....piece</p>
+          <h1>Live,<br />Love,<br /><em>Bubblebutt.</em></h1>
+          <p className="intro-line"><em>The story of the one true pirate (fnbr pirate)</em></p>
+          <a className="primary-link" href="#collection">View my collection <span aria-hidden="true">🏴‍☠️</span></a>
         </div>
       </section>
       <section className="biography" aria-labelledby="bio-title">
